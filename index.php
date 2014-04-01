@@ -33,7 +33,7 @@
     window.fbAsyncInit = function() {
         FB.init({
             appId : '269918776508696', // App ID
-            channelUrl : 'https://kooky-crag-7236.herokuapp.com/channel.html',
+            // channelUrl : 'https://kooky-crag-7236.herokuapp.com/channel.html',
             status : true, // check login status
             cookie : true, // enable cookies to allow the server to access
             xfbml : true // parse XFBML
