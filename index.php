@@ -146,7 +146,8 @@
         echo "<script type='text/javascript'>window.top.location.href = '$login_url';</script>";
     }else{
         if (!$signed_request["page"]["liked"]) {
-            echo '<img src="images/likeus.jpg">';
+            // echo '<img src="images/likeus.jpg">';
+            echo "<h1>Like Us</h1>";
         }else {
             $handle -> userEnter($user_id);
             include 'content.php';
@@ -155,9 +156,9 @@
         }
     }
     ?>
-        <div class="app-footer">
+        <!-- <div class="app-footer">
             <img src="images/footer.png">
-        </div>
+        </div> -->
     </div>
 
 </div>
