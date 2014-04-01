@@ -23,7 +23,7 @@
     // <script src="libs/js/bootstrap.min.js"></script>
     // <script src="libs/js/jquery.form.min.js"></script>
     // <script src="libs/js/jquery-migrate-1.2.1.js"></script> -->
-    <script id="facebook-jssdk" async="" src="//connect.facebook.net/en_US/all.js#xfbml=1&appId=641733439255081"></script>
+    <script id="facebook-jssdk" async="" src="//connect.facebook.net/en_US/all.js#xfbml=1&appId=269918776508696"></script>
 </head>
 
 <body>
@@ -119,8 +119,8 @@
     <?php
     require_once ('libs/fb-php-sdk/facebook.php');
 
-    require_once("ActionHandler.php");
-    $handle = new ActionHandler();
+    // require_once("ActionHandler.php");
+    // $handle = new ActionHandler();
    
     $app_id = 269918776508696;
     $app_secret = '99a9bc8d2d42d04cb4d578665430f0c4';
