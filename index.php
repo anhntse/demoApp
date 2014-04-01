@@ -16,13 +16,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="libs/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="src/css/main.css">
-    <link rel="stylesheet" href="src/webfontkit/customfont.css">
-    <script src="libs/js/jquery-1.10.2.js"></script>
-    <script src="libs/js/bootstrap.min.js"></script>
-    <script src="libs/js/jquery.form.min.js"></script>
-    <script src="libs/js/jquery-migrate-1.2.1.js"></script>
+    <!-- <link rel="stylesheet" href="libs/css/bootstrap.min.css" /> -->
+    <!-- <link rel="stylesheet" href="src/css/main.css"> -->
+    <!-- <link rel="stylesheet" href="src/webfontkit/customfont.css"> -->
+   <!--  // <script src="libs/js/jquery-1.10.2.js"></script>
+    // <script src="libs/js/bootstrap.min.js"></script>
+    // <script src="libs/js/jquery.form.min.js"></script>
+    // <script src="libs/js/jquery-migrate-1.2.1.js"></script> -->
     <script id="facebook-jssdk" async="" src="//connect.facebook.net/en_US/all.js#xfbml=1&appId=641733439255081"></script>
 </head>
 
