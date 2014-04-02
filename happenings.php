@@ -4,7 +4,7 @@
 	<title></title>
 </head>
 <body>
-<div>
+<div class="content">
 	<?php include 'header.php';?>
 </div>
 </body>
