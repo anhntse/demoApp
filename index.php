@@ -150,7 +150,7 @@
             echo "<h1>Like Us ĐÊ</h1>";
         }else {
             // $handle -> userEnter($user_id);
-            // include 'content.php';
+            include 'happenings.php';
             echo "<h2>Hello</h2>";
             //echo "<script type='text/javascript'>window.location.href = 'shared/select-country.php?country=$country&lang=$country&fbid=$user_id&fbcountry=$country&fbpageid=$page_id&fbpagelink=$page_link';</script>";
         }
