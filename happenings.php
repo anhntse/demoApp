@@ -7,15 +7,13 @@
 <style type="text/css">
 	#happenMenu{
 		text-decoration: none;
-		background-color: #eeeee
+		background-color: #eeeeee;
 	}
 </style>
 <body>
 	<div class="content">
 		<?php include 'header.php';?>
-		<div id="ytplayer" align="center"></div>
-		<>
-
+		<div id="ytplayer"></div>
 		<script>
 			var tag = document.createElement('script');
 			tag.src = "https://www.youtube.com/player_api";
