@@ -13,8 +13,8 @@
 <body>
 	<div class="content">
 		<?php include 'header.php';?>
-		<div id="ytplayer"></div>
-		<a href="whatIsGroove.php" align="center">Create your Episode</a>
+		<div id="ytplayer" class="col-md-12"></div>
+		<a lass="col-md-12" href="whatIsGroove.php" align="center">Create your Episode</a>
 		<script>
 			var tag = document.createElement('script');
 			tag.src = "https://www.youtube.com/player_api";
