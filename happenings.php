@@ -16,7 +16,7 @@
 		<div class="row" align="center">
 			<div id="ytplayer" class="col-md-12"></div>
 		</div>
-		<div class="row">
+		<div class="row" align="center">
 			<a class="col-md-12" href="whatIsGroove.php" align="center">Create your Episode</a>
 		</div>
 		<script>
