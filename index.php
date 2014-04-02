@@ -147,7 +147,7 @@
     }else{
         if (!$signed_request["page"]["liked"]) {
             // echo '<img src="images/likeus.jpg">';
-            echo "<h1>Like Us</h1>";
+            echo "<h1>Like Us ĐÊ</h1>";
         }else {
             // $handle -> userEnter($user_id);
             // include 'content.php';
