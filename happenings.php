@@ -14,6 +14,7 @@
 	<div class="content">
 		<?php include 'header.php';?>
 		<div id="ytplayer"></div>
+		<a href="whatIsGroove.php" align="center">Create your Episode</a>
 		<script>
 			var tag = document.createElement('script');
 			tag.src = "https://www.youtube.com/player_api";
