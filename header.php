@@ -6,9 +6,10 @@
 </head>
 <body>
 <div>
-	<ul class="nav nav-pills">
+	<ul class="nav nav-pills" align="center">
 	  <li><a href="#">Happenings</a></li>
 	  <li><a href="#">What is Groove Nation?</a></li>
+	  <li><h2>GROVE NATION</h2></li>
 	  <li><a href="#">Gallery</a></li>
 	  <li><a href="#">Singapore Dance Delight Vol5 </a></li>
 	</ul>
