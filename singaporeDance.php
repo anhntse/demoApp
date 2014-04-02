@@ -2,22 +2,17 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="src/style.css">
 </head>
 <style type="text/css">
-	#happenMenu{
+	#singaporeMenu{
 		text-decoration: none;
 		background-color: #eeeeee;
 	}
 </style>
 <body>
 	<div class="content">
-		<?php include 'header.php';?>
 		<div class="row" align="center">
 			<div id="ytplayer" class="col-md-12"></div>
-		</div>
-		<div class="row">
-			<a class="col-md-12" href="whatIsGroove.php" align="center">Create your Episode</a>
 		</div>
 		<script>
 			var tag = document.createElement('script');
@@ -27,8 +22,8 @@
 			var player;
 			function onYouTubePlayerAPIReady() {
 				player = new YT.Player('ytplayer', {
-					height: '390',
-					width: '640',
+					height: '500',
+					width: '100%',
 					videoId: '4YMD6xELI_k'
 				});
 			}
