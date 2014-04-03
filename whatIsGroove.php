@@ -43,6 +43,7 @@
 						$type = $_FILES['file']['type'];
 						$size = $_FILES['file']['size'];
 						move_uploaded_file($tmp_name, $path.$name);
+						echo "File uploaded! <br />";
 					}
 				}
 				else{
