@@ -21,9 +21,9 @@
 			<a class="col-md-12"align="center">Upload your episode</a>
 		</div>
 		<div>
-			<form action="upload_file.php" method="post" enctype="multipart/form-data">
+			<form action="whatIsGroove.php" method="post" enctype="multipart/form-data">
 				<label for="file">Filename:</label>
-				<input type="file" name="file" id="file"><br>
+				<input type="file" name="file" id="file" size="20"><br>
 				<input type="submit" name="submit" value="Submit">
 			</form>
 		</div>
