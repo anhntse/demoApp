@@ -117,9 +117,9 @@
 <div id='main'  style="width: 810px;">
     <div style="position: relative;">
         <?php
-        $post_url = "https://graph-video.facebook.com/" . $page_id . "/videos?"
-        . "title=" . $video_title. "&description=" . $video_desc
-        . "&access_token=". $access_token;
+        // $post_url = "https://graph-video.facebook.com/" . $page_id . "/videos?"
+        // . "title=" . $video_title. "&description=" . $video_desc
+        // . "&access_token=". $access_token;
 
 // Create a simple form
         echo '<form enctype="multipart/form-data" action=" '.$post_url.' "
