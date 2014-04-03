@@ -20,38 +20,53 @@
 		<div class="row" align="center">
 			<a class="col-md-12"align="center">Upload your episode</a>
 		</div>
-		<?php 
-		$app_id = "269918776508696";
-		$app_secret = "99a9bc8d2d42d04cb4d578665430f0c4"; 
-		$my_url = "YOUR_POST_LOGIN_URL"; 
-		$video_title = "YOUR_VIDEO_TITLE";
-		$video_desc = "YOUR_VIDEO_DESCRIPTION";
+		<div>
+			<form action="upload_file.php" method="post" enctype="multipart/form-data">
+				<label for="file">Filename:</label>
+				<input type="file" name="file" id="file"><br>
+				<input type="submit" name="submit" value="Submit">
+			</form>
+		</div>
+		<?php
+		$allowedExts = array("gif", "jpeg", "jpg", "png");
+		$temp = explode(".", $_FILES["file"]["name"]);
+		$extension = end($temp);
+		if ((($_FILES["file"]["type"] == "image/gif")
+			|| ($_FILES["file"]["type"] == "image/jpeg")
+			|| ($_FILES["file"]["type"] == "image/jpg")
+			|| ($_FILES["file"]["type"] == "image/pjpeg")
+			|| ($_FILES["file"]["type"] == "image/x-png")
+			|| ($_FILES["file"]["type"] == "image/png"))
+			&& ($_FILES["file"]["size"] < 20000)
+			&& in_array($extension, $allowedExts))
+		{
+			if ($_FILES["file"]["error"] > 0)
+			{
+				echo "Return Code: " . $_FILES["file"]["error"] . "<br>";
+			}
+			else
+			{
+				echo "Upload: " . $_FILES["file"]["name"] . "<br>";
+				echo "Type: " . $_FILES["file"]["type"] . "<br>";
+				echo "Size: " . ($_FILES["file"]["size"] / 1024) . " kB<br>";
+				echo "Temp file: " . $_FILES["file"]["tmp_name"] . "<br>";
 
-		$code = $_REQUEST["code"];
-
-		if(empty($code)) {
-			$dialog_url = "http://www.facebook.com/dialog/oauth?client_id=" 
-			. $app_id . "&redirect_uri=" . urlencode($my_url) 
-			. "&scope=publish_stream";
-			echo("<script>top.location.href='" . $dialog_url . "'</script>");
+				if (file_exists("upload/" . $_FILES["file"]["name"]))
+				{
+					echo $_FILES["file"]["name"] . " already exists. ";
+				}
+				else
+				{
+					move_uploaded_file($_FILES["file"]["tmp_name"],
+						"upload/" . $_FILES["file"]["name"]);
+					echo "Stored in: " . "upload/" . $_FILES["file"]["name"];
+				}
+			}
 		}
-
-		$token_url = "https://graph.facebook.com/oauth/access_token?client_id="
-		. $app_id . "&redirect_uri=" . urlencode($my_url) 
-		. "&client_secret=" . $app_secret 
-		. "&code=" . $code;
-		$access_token = file_get_contents($token_url);
-		
-		$post_url = "https://graph-video.facebook.com/me/videos?"
-		. "title=" . $video_title. "&description=" . $video_desc 
-		. "&". $access_token;
-
-		echo '<form enctype="multipart/form-data" action=" '.$post_url.' "  
-		method="POST">';
-		echo 'Please choose a file:';
-		echo '<input name="file" type="file">';
-		echo '<input type="submit" value="Upload" />';
-		echo '</form>';
+		else
+		{
+			echo "Invalid file";
+		}
 		?>
 		<div class="row" align="center">
 			<iframe width="50%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/142308793&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
