@@ -21,8 +21,8 @@
 			<a class="col-md-12"align="center">Upload your episode</a>
 		</div>
 		<?php 
-		$app_id = "YOUR_APP_ID";
-		$app_secret = "YOUR_APP_SECRET"; 
+		$app_id = "269918776508696";
+		$app_secret = "99a9bc8d2d42d04cb4d578665430f0c4"; 
 		$my_url = "YOUR_POST_LOGIN_URL"; 
 		$video_title = "YOUR_VIDEO_TITLE";
 		$video_desc = "YOUR_VIDEO_DESCRIPTION";
