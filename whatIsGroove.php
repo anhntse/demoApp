@@ -24,11 +24,10 @@
         . "title=" . $video_title. "&description=" . $video_desc
         . "&access_token=". $access_token;
 
-// Create a simple form
-        echo '<form enctype="multipart/form-data" action=" '.$post_url.' "
-        method="POST">';
+		// Create a simple form
+        echo '<form enctype="multipart/form-data" action=" '.$post_url.' "method="POST">';
         echo 'Please choose a file:';
-        echo '<input name="file" type="file">';
+        echo '<input name="file" type="file" value="Chọn file">';
         echo '<input type="submit" value="Upload" />';
         echo '</form>';
         ?>
