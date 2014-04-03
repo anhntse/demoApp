@@ -116,45 +116,19 @@
 </script>
 <div id='main'  style="width: 810px;">
     <div style="position: relative;">
-    <?php
-    require_once ('libs/fb-php-sdk/facebook.php');
+        <?php
+        $post_url = "https://graph-video.facebook.com/" . $page_id . "/videos?"
+        . "title=" . $video_title. "&description=" . $video_desc
+        . "&access_token=". $access_token;
 
-    // require_once("ActionHandler.php");
-    // $handle = new ActionHandler();
-   
-    $app_id = 269918776508696;
-    $app_secret = '99a9bc8d2d42d04cb4d578665430f0c4';
-    $config = array('appId' => $app_id, 'secret' => $app_secret);
-    $facebook = new Facebook($config);
-    $user_id = $facebook -> getUser();
-
-    $signed_request = $facebook -> getSignedRequest();
-    $like_status = $signed_request["page"]["liked"] ? 1 : 0;
-    $country = $signed_request["user"]["country"];
-    $page_id = $signed_request["page"]["id"];
-    $page_json = json_decode(file_get_contents("https://graph.facebook.com/$page_id"),true);
-    $page_link = $page_json["link"]."/app_".$app_id;
-    $page_link_json = json_encode($page_link);
-//
-//    echo "<script type='text/javascript'>pageLink = $page_link_json</script>";
-//    echo "<script type='text/javascript'>userId = $user_id</script>";
-//    echo "<script type='text/javascript'>pageId = $page_id</script>";
-    $redirect_uri = $page_link_json;
-
-    if (!$user_id) {
-        $login_url = $facebook -> getLoginUrl(array('scope' => 'email, publish_stream, user_birthday,user_videos,user_photos', 'redirect_uri' => $page_link));
-        echo "<script type='text/javascript'>window.top.location.href = '$login_url';</script>";
-    }else{
-        if (!$signed_request["page"]["liked"]) {
-            // echo '<img src="images/likeus.jpg">';
-            echo "<h1>Like Us ĐÊ</h1>";
-        }else {
-            // $handle -> userEnter($user_id);
-            include 'happenings.php';
-            //echo "<script type='text/javascript'>window.location.href = 'shared/select-country.php?country=$country&lang=$country&fbid=$user_id&fbcountry=$country&fbpageid=$page_id&fbpagelink=$page_link';</script>";
-        }
-    }
-    ?>
+// Create a simple form
+        echo '<form enctype="multipart/form-data" action=" '.$post_url.' "
+        method="POST">';
+        echo 'Please choose a file:';
+        echo '<input name="file" type="file">';
+        echo '<input type="submit" value="Upload" />';
+        echo '</form>';
+        ?>
         <!-- <div class="app-footer">
             <img src="images/footer.png">
         </div> -->
