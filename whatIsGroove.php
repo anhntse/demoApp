@@ -3,6 +3,7 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="src/style.css">
+	<script src="libs/js/jquery.js"></script>
 </head>
 <style type="text/css">
 	#whatMenu{
@@ -19,18 +20,15 @@
 		<div class="row" align="center">
 			<a class="col-md-12"align="center">Upload your episode</a>
 		</div>
-		<?php
-        $post_url = "https://graph-video.facebook.com/" . $page_id . "/videos?"
-        . "title=" . $video_title. "&description=" . $video_desc
-        . "&access_token=". $access_token;
+		<div>
+			<form id="fileupload" action="https://graph-video.facebook.com/me/videos" method="POST" enctype="multipart/form-data">
+				<input type="hidden" name="access_token" value="user_access_token">
+				<input type="text" name="title">
+				<input type="text" name="description">
+				<input type="file" name="file"> <!-- name must be file -->
+			</form>
 
-		// Create a simple form
-        echo '<form enctype="multipart/form-data" action=" '.$post_url.' "method="POST">';
-        echo 'Please choose a file:';
-        echo '<input name="file" type="file" value="Chọn file">';
-        echo '<input type="submit" value="Upload" />';
-        echo '</form>';
-        ?>
+		</div>
 		<div class="row" align="center">
 			<iframe width="50%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/142308793&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
 		</div>
@@ -47,6 +45,16 @@
 					videoId: '4YMD6xELI_k'
 				});
 			}
+		</script>
+		<script type="text/javascript">
+			$('#fileupload').fileupload({
+				dataType: 'json',
+        		forceIframeTransport: true, //force use iframe or will no work
+        		autoUpload : true,
+		        //facebook book response will be send as param
+		        //you can use this page to save video (Graph Api) object on database
+		        redirect : 'http://pathToYourServer/videos?video=%s' 
+    		});
 		</script>
 	</div>
 </body>
