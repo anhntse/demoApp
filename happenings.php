@@ -21,9 +21,9 @@
 		</div>
 		<?php
 		$response = $facebook->api(
-    		"/me"
+    		"/search?q=%23fpt"
 		);
-		echo $response['id'];
+		echo $response['data'][0]['message'];
 		?>
 		<script>
 			var tag = document.createElement('script');
