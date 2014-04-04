@@ -4,6 +4,7 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="libs/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="src/style.css">
+	<script src="libs/js/jquery.js"></script>
 </head>
 <style type="text/css">
 	#happenMenu{
@@ -32,6 +33,9 @@
 			<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
 			<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
 		</div>
+		<script>
+		$(".hashtag").animate({left:'250px'},5000);
+		</script>
 		<script>
 			var tag = document.createElement('script');
 			tag.src = "https://www.youtube.com/player_api";
