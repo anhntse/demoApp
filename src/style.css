@@ -5,17 +5,20 @@
 }
 .slide{
 	width: 810px;
+	height: 100px;
 	position: relative;
 	overflow: hidden;
 }
 .hashtag{
 	width: 10000px;
+	height: 100px;
 	position: absolute;
 	/*z-index: 1;*/
 }
 .tagList{
 	background-color: #E1E1E1;
 	width: 200px;
+	height: 100px;
 	margin: 25px;
 	float: left;
 }
