@@ -27,13 +27,13 @@
     		"/search?q=%23fpt"
 		);
 		?>
-		<div id="click" class="row hashtag">
+		<div class="row hashtag">
 			<div class="tagList"><?php echo $response['data'][0]['message'];?></div>
 			<div class="tagList"><?php echo $response['data'][1]['message'];?></div>
 			<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
 			<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
 		</div>
-		<div id="click" style="background-color:green">abc</div>
+		<div id="click" style="background-color:green, width:50px;">abc</div>
 		<script>
 			$("#click").click(function(){
  			 	$("#click").animate({right:'250px'});
