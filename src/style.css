@@ -11,6 +11,7 @@
 .tagList{
 	background-color: #E1E1E1;
 	width: 200px;
+	height: 100px;
 	margin: 25px;
 	display: inline-block;
 }

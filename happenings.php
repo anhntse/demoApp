@@ -37,8 +37,8 @@
 			<div class="tagList"><?php echo $response['data'][6]['message'];?></div>
 		</div>
 		<div class="button">
-			<img class="backButton" src="img/back.png">
-			<img class="nextButton" src="img/next.png">
+		<div class="col-sm-6" align="left"><img class="backButton" src="img/back.png"></div>
+		<div class="col-sm-6" align="right"><img class="nextButton" src="img/next.png"></div>
 		</div>
 		<script>
 		var pos = 0;
