@@ -6,6 +6,7 @@
 	overflow-x: hidden;
 	width: 10000px;
 	position: absolute; 
+	z-index: 1;
 }
 .tagList{
 	background-color: #E1E1E1;
@@ -15,4 +16,5 @@
 }
 .button{
 	position: absolute;
+	z-index: 2;
 }
