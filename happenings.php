@@ -27,7 +27,7 @@
     		"/search?q=%23fpt"
 		);
 		?>
-		<div class="row hashtag">
+		<div id="click" class="row hashtag">
 			<div class="tagList"><?php echo $response['data'][0]['message'];?></div>
 			<div class="tagList"><?php echo $response['data'][1]['message'];?></div>
 			<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
@@ -36,12 +36,12 @@
 			<div class="tagList"><?php echo $response['data'][5]['message'];?></div>
 			<div class="tagList"><?php echo $response['data'][6]['message'];?></div>
 		</div>
-		<div id="click" style="background-color:green; width:50px; position:absolute;">abc</div>
+		<div style="background-color:green; width:50px; position:absolute;">abc</div>
 		<script>
 		var pos = 0;
 		$(document).ready(function(){
-			$(".hashtag").click(function(){
- 			 	$(".hashtag").animate({right:pos+50});
+			$("#click").click(function(){
+ 			 	$("#click").animate({right:pos+50});
  			 	pos = pos + 50;
 			}); 
 		});
