@@ -46,11 +46,11 @@
 		var pos = 0;
 		$(document).ready(function(){
 			$(".nextButton").click(function(){
- 			 	$(".nextButton").animate({left:pos+50});
+ 			 	$(".hashtag").animate({left:pos+50});
  			 	pos = pos + 50;
 			});
 			$(".backButton").click(function(){
- 			 	$(".backButton").animate({left:pos+50});
+ 			 	$(".hashtag").animate({left:pos+50});
  			 	pos = pos + 50;
 			});  
 		});
