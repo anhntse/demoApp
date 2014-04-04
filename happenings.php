@@ -33,14 +33,14 @@
 			<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
 			<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
 		</div>
-		<div id="click" style="background-color:green; width:50px;">abc</div>
+		<div id="click" style="background-color:green; width:50px; position:absolute;">abc</div>
 		<script>
-		$(document).ready(function(){
+		// $(document).ready(function(){
 			$("#click").click(function(){
  			 	$("#click").animate({right:'250px'});
  			 	console.log("click");
 			}); 
-		});
+		// });
 		</script>
 		<script>
 			var tag = document.createElement('script');
