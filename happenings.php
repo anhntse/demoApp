@@ -23,7 +23,7 @@
 		$response = $facebook->api(
     		"/me"
 		);
-		echo $response;
+		echo $response -> id;
 		?>
 		<script>
 			var tag = document.createElement('script');
