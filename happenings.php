@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="src/style.css">
 </head>
 <style type="text/css">
@@ -20,11 +21,16 @@
 			<a class="col-md-12" href="whatIsGroove.php" align="center">Create your Episode</a>
 		</div>
 		<?php
+		//get hashtag
 		$response = $facebook->api(
     		"/search?q=%23fpt"
 		);
-		echo $response['data'][0]['message'];
 		?>
+		<div class="row">
+			<div class="col-sx-4"><?php echo $response['data'][0]['message'];?></div>
+			<div class="col-sx-4"><?php echo $response['data'][1]['message'];?></div>
+			<div class="col-sx-4"><?php echo $response['data'][2]['message'];?></div>
+		</div>
 		<script>
 			var tag = document.createElement('script');
 			tag.src = "https://www.youtube.com/player_api";
