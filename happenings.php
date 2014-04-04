@@ -34,7 +34,9 @@
 			<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
 		</div>
 		<script>
-		$(".hashtag").animate({left:'250px'},5000);
+			$(".hashtag").click(function(){
+ 			 	$(".hashtag").animate({right:'250px'});
+			}); 
 		</script>
 		<script>
 			var tag = document.createElement('script');
