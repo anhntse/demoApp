@@ -19,6 +19,12 @@
 		<div class="row" align="center">
 			<a class="col-md-12" href="whatIsGroove.php" align="center">Create your Episode</a>
 		</div>
+		<?php
+		$response = $facebook->api(
+    		"/me"
+		);
+		echo $response;
+		?>
 		<script>
 			var tag = document.createElement('script');
 			tag.src = "https://www.youtube.com/player_api";
