@@ -6,7 +6,8 @@
 .hashtag{
 	overflow-x: hidden;
 	width: 10000px;
-	position: absolute; 
+	position: absolute;
+	clip: rect(10px, 290px, 190px, 10px); 
 	/*z-index: 1;*/
 }
 .tagList{
