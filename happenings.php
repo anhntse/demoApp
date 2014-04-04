@@ -33,6 +33,7 @@
 			<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
 			<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
 		</div>
+		<div id="click" style="background-color:green">abc</div>
 		<script>
 			$("#click").click(function(){
  			 	$("#click").animate({right:'250px'});
