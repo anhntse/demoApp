@@ -41,7 +41,7 @@
 		var pos = 0;
 		$(document).ready(function(){
 			$("#click").click(function(){
- 			 	$("#click").animate({right:pos+50});
+ 			 	$("#click").animate({left:pos+50});
  			 	pos = pos + 50;
 			}); 
 		});
