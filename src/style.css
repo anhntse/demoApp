@@ -2,18 +2,16 @@
 	width:810px;
 	height: 1000px;
 	background-color: #C1D458;
-	position: relative;
 }
 .hashtag{
 	overflow-x: hidden;
-	width: 810px;
+	width: 10000px;
 	position: absolute; 
 	/*z-index: 1;*/
 }
 .tagList{
 	background-color: #E1E1E1;
 	width: 200px;
-	height: 100px;
 	margin: 25px;
 	display: inline-block;
 }
