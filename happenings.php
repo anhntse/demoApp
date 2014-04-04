@@ -37,10 +37,10 @@
 				<div class="tagList"><?php echo $response['data'][5]['message'];?></div>
 				<div class="tagList"><?php echo $response['data'][6]['message'];?></div>
 			</div>
-		</div>
-		<div class="button">
-			<div class="col-sm-6" align="left"><img class="backButton" src="img/back.png"></div>
-			<div class="col-sm-6" align="right"><img class="nextButton" src="img/next.png"></div>
+			<div class="button">
+				<div class="col-sm-6" align="left"><img class="backButton" src="img/back.png"></div>
+				<div class="col-sm-6" align="right"><img class="nextButton" src="img/next.png"></div>
+			</div>
 		</div>
 		<script>
 		var pos = 0;
