@@ -35,12 +35,12 @@
 		</div>
 		<div id="click" style="background-color:green; width:50px; position:absolute;">abc</div>
 		<script>
-		// $(document).ready(function(){
+		var pos = 0;
+		$(document).ready(function(){
 			$("#click").click(function(){
- 			 	$("#click").animate({right:'250px'});
- 			 	console.log("click");
+ 			 	$("#click").animate({right:pos+100});
 			}); 
-		// });
+		});
 		</script>
 		<script>
 			var tag = document.createElement('script');
