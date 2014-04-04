@@ -45,11 +45,11 @@
 		<script>
 		var pos = 0;
 		$(document).ready(function(){
-			$(".nextButton").click(function(){
+			$(".backButton").click(function(){
  			 	$(".hashtag").animate({left:pos+50});
  			 	pos = pos + 50;
 			});
-			$(".backButton").click(function(){
+			$(".nextButton").click(function(){
  			 	$(".hashtag").animate({left:pos-50});
  			 	pos = pos - 50;
 			});  
