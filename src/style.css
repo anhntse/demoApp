@@ -1,6 +1,7 @@
 .content{
 	width:810px;
 	background-color: #C1D458;
+	position: relative;
 }
 .hashtag{
 	overflow-x: hidden;

@@ -19,7 +19,7 @@
 			<div id="ytplayer" class="col-md-12"></div>
 		</div>
 		<div class="row" align="center">
-			<a class="col-md-12" href="whatIsGroove.php" align="center">Create your Episode</a>
+			<a class="col-sm-12" href="whatIsGroove.php" align="center">Create your Episode</a>
 		</div>
 		<?php
 		//get hashtag
@@ -37,8 +37,8 @@
 			<div class="tagList"><?php echo $response['data'][6]['message'];?></div>
 		</div>
 		<div class="button">
-		<div class="col-sm-6" align="left"><img class="backButton" src="img/back.png"></div>
-		<div class="col-sm-6" align="right"><img class="nextButton" src="img/next.png"></div>
+			<div class="col-sm-6" align="left"><img class="backButton" src="img/back.png"></div>
+			<div class="col-sm-6" align="right"><img class="nextButton" src="img/next.png"></div>
 		</div>
 		<script>
 		var pos = 0;
