@@ -3,11 +3,12 @@
 	background-color: #C1D458;
 }
 .hashtag{
-	position: absolute;
+	overflow-x: hidden;
+	width: 10000px; 
 }
 .tagList{
 	background-color: #E1E1E1;
 	width: 200px;
 	margin: 25px;
-	display: inline-table;
+	display: inline-block;
 }
