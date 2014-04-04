@@ -50,8 +50,8 @@
  			 	pos = pos + 50;
 			});
 			$(".backButton").click(function(){
- 			 	$(".hashtag").animate({right:pos-50});
- 			 	pos = pos - 50;
+ 			 	$(".hashtag").animate({right:pos+50});
+ 			 	pos = pos + 50;
 			});  
 		});
 		</script>
