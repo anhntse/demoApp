@@ -48,11 +48,7 @@
 			$(".nextButton").click(function(){
  			 	$(".hashtag").animate({left:pos+50});
  			 	pos = pos + 50;
-			});
-			$(".backButton").click(function(){
- 			 	$(".hashtag").animate({left:pos+50});
- 			 	pos = pos + 50;
-			});  
+			}); 
 		});
 		</script>
 		<script>
