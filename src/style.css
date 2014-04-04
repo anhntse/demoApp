@@ -3,18 +3,21 @@
 	height: 1000px;
 	background-color: #C1D458;
 }
+.slide{
+	width: 810px;
+	position: relative;
+	overflow: hidden;
+}
 .hashtag{
-	overflow-x: hidden;
 	width: 10000px;
 	position: absolute;
-	clip: rect(10px, 290px, 190px, 10px); 
 	/*z-index: 1;*/
 }
 .tagList{
 	background-color: #E1E1E1;
 	width: 200px;
 	margin: 25px;
-	display: inline-block;
+	float: left;
 }
 .button{
 	/*position: absolute;*/
