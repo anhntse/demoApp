@@ -26,10 +26,10 @@
     		"/search?q=%23fpt"
 		);
 		?>
-		<div class="row">
-			<div class="col-sx-4"><?php echo $response['data'][0]['message'];?></div>
-			<div class="col-sx-4"><?php echo $response['data'][1]['message'];?></div>
-			<div class="col-sx-4"><?php echo $response['data'][2]['message'];?></div>
+		<div class="row hashtag">
+			<div class="col-sm-4 tagList"><?php echo $response['data'][0]['message'];?></div>
+			<div class="col-sm-4 tagList"><?php echo $response['data'][1]['message'];?></div>
+			<div class="col-sm-4 tagList"><?php echo $response['data'][2]['message'];?></div>
 		</div>
 		<script>
 			var tag = document.createElement('script');
