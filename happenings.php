@@ -38,17 +38,21 @@
 				<div class="tagList"><?php echo $response['data'][6]['message'];?></div>
 			</div>
 			<div class="button">
-				<div class="col-sm-6" align="left"><img class="backButton" src="img/back.png"></div>
-				<div class="col-sm-6" align="right"><img class="nextButton" src="img/next.png"></div>
+				<div class="col-sm-6 backButton" align="left"><img src="img/back.png"></div>
+				<div class="col-sm-6 nextButton" align="right"><img src="img/next.png"></div>
 			</div>
 		</div>
 		<script>
 		var pos = 0;
 		$(document).ready(function(){
-			$("#click").click(function(){
- 			 	$("#click").animate({left:pos+50});
+			$(".nextButton").click(function(){
+ 			 	$(".nextButton").animate({left:pos+50});
  			 	pos = pos + 50;
-			}); 
+			});
+			$(".backButton").click(function(){
+ 			 	$(".backButton").animate({left:pos+50});
+ 			 	pos = pos + 50;
+			});  
 		});
 		</script>
 		<script>
