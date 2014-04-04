@@ -31,14 +31,17 @@
 			<div class="tagList"><?php echo $response['data'][0]['message'];?></div>
 			<div class="tagList"><?php echo $response['data'][1]['message'];?></div>
 			<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
-			<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
+			<div class="tagList"><?php echo $response['data'][3]['message'];?></div>
+			<div class="tagList"><?php echo $response['data'][4]['message'];?></div>
+			<div class="tagList"><?php echo $response['data'][5]['message'];?></div>
+			<div class="tagList"><?php echo $response['data'][6]['message'];?></div>
 		</div>
 		<div id="click" style="background-color:green; width:50px; position:absolute;">abc</div>
 		<script>
 		var pos = 0;
 		$(document).ready(function(){
-			$("#click").click(function(){
- 			 	$("#click").animate({left:pos+50});
+			$(".hashtag").click(function(){
+ 			 	$(".hashtag").animate({right:pos+50});
  			 	pos = pos + 50;
 			}); 
 		});

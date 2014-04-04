@@ -4,7 +4,8 @@
 }
 .hashtag{
 	overflow-x: hidden;
-	width: 10000px; 
+	width: 10000px;
+	position: absolute; 
 }
 .tagList{
 	background-color: #E1E1E1;
