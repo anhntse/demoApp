@@ -30,6 +30,7 @@
 			<div class="tagList"><?php echo $response['data'][0]['message'];?></div>
 			<div class="tagList"><?php echo $response['data'][1]['message'];?></div>
 			<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
+			<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
 		</div>
 		<script>
 			var tag = document.createElement('script');
