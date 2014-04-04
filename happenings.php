@@ -36,7 +36,10 @@
 			<div class="tagList"><?php echo $response['data'][5]['message'];?></div>
 			<div class="tagList"><?php echo $response['data'][6]['message'];?></div>
 		</div>
-		<div style="background-color:green; width:50px; position:absolute;">abc</div>
+		<div class="button">
+			<img class="backButton" src="img/back.png">
+			<img class="nextButton" src="img/next.png">
+		</div>
 		<script>
 		var pos = 0;
 		$(document).ready(function(){
