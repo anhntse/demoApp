@@ -2,6 +2,9 @@
 	width:810px;
 	background-color: #C1D458;
 }
+.hashtag{
+	position: absolute;
+}
 .tagList{
 	background-color: #E1E1E1;
 	width: 200px;
