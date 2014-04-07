@@ -13,12 +13,13 @@
 </div>
 <script>
 	$(function(){
-		// $("#happenMenu").on('click', function(){
-			// if($(this).hasClass("selected")){
-				// return;
-			// }
+		$("#happenMenu").on('click', function(evt){
+			evt.preventDefaulṭ̣̣̣̣̣();̣̣̣
+			if($(this).hasClass("selected")){
+				return;
+			}
 			$("#section-content").load("happenings.php");
-		// });
+		});
 		// $("#whatMenu").on('click', function(){
 		// 	if($(this).hasClass("selected")){
 		// 		return;
