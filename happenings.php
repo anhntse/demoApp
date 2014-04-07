@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="libs/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="src/style.css">
-	<script src="libs/js/jquery.js"></script>
-</head>
+
 <style type="text/css">
 	#happenMenu{
 		text-decoration: none;
 		background-color: #eeeeee;
 	}
 </style>
-<body>
+
 	<div class="content">
 		<div class="row" align="center">
 			<div id="ytplayer" class="col-md-12"></div>
@@ -69,5 +62,3 @@
 			}
 		</script>
 	</div>
-</body>
-</html>

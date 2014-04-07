@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="libs/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="src/style.css">
 	<script src="libs/js/jquery.js"></script>
 </head>
 <body>
