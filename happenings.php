@@ -14,7 +14,6 @@
 </style>
 <body>
 	<div class="content">
-		<?php include 'header.php';?>
 		<div class="row" align="center">
 			<div id="ytplayer" class="col-md-12"></div>
 		</div>
