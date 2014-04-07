@@ -1,5 +1,10 @@
 
-
+<style type="text/css">
+	#happenMenu{
+		text-decoration: none;
+		background-color: #eeeeee;
+	}
+</style>
 
 	<div class="content">
 		<div class="row" align="center">
@@ -10,19 +15,11 @@
 		</div>
 		<?php
 		//get hashtag
-		$response = $facebook->api(
-    		"/search?q=%23fpt"
-		);
+	
 		?>
 		<div class="slide">
 			<div id="click" class="row hashtag">
-				<div class="tagList"><?php echo $response['data'][0]['message'];?></div>
-				<div class="tagList"><?php echo $response['data'][1]['message'];?></div>
-				<div class="tagList"><?php echo $response['data'][2]['message'];?></div>
-				<div class="tagList"><?php echo $response['data'][3]['message'];?></div>
-				<div class="tagList"><?php echo $response['data'][4]['message'];?></div>
-				<div class="tagList"><?php echo $response['data'][5]['message'];?></div>
-				<div class="tagList"><?php echo $response['data'][6]['message'];?></div> 
+				
 			</div>
 			<div class="button">
 				<div class="col-sm-6" align="left"><img class="backButton" src="img/back.png"></div>
