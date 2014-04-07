@@ -21,26 +21,26 @@
 			<h2>Gallery</h2>
 			<div class="row">
 				<div class="col-sm-4">
-					<div class="thumbnail">
-						<img data-src="img/demo1.jpg" alt="...">
+					<div class="thumbnail photo">
+						<img src="img/demo1.jpg" alt="...">
 						<div class="caption">
-							<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+							<p>Like</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="thumbnail">
-						<img data-src="img/demo2.jpg" alt="...">
+					<div class="thumbnail photo">
+						<img src="img/demo2.jpg" alt="...">
 						<div class="caption">
-							<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+							<p>Like</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="thumbnail">
-						<img data-src="img/demo3.jpg" alt="...">
+					<div class="thumbnail photo">
+						<img src="img/demo3.jpg" alt="...">
 						<div class="caption">
-							<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+							<p>Like</p>
 						</div>
 					</div>
 				</div>
