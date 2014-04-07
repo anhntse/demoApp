@@ -20,28 +20,28 @@
 			}
 			$("#section-content").load("happenings.php");
 		});
-		$("#whatMenu").on('click', function(){
+		$("#whatMenu").on('click', function(evt){
 			evt.preventDefault();
 			if($(this).hasClass("selected")){
 				return;
 			}
 			$("#section-content").load("whatIsGroove.php");
 		});
-		$("#galleryMenu").on('click', function(){
+		$("#galleryMenu").on('click', function(evt){
 			evt.preventDefault();
 			if($(this).hasClass("selected")){
 				return;
 			}
 			$("#section-content").load("gallery.php");
 		});
-		$("#singaporeMenu").on('click', function(){
+		$("#singaporeMenu").on('click', function(evt){
 			evt.preventDefault();
 			if($(this).hasClass("selected")){
 				return;
 			}
 			$("#section-content").load("singaporeDance.php");
 		});
-		$(".menu").on('click', function(){
+		$(".menu").on('click', function(evt){
 			evt.preventDefault();
 			$(".menu").removeClass("selected");
             $(this).addClass("selected");
