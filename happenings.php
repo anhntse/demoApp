@@ -21,7 +21,7 @@
 		$config = array('appId' => $app_id, 'secret' => $app_secret);
 		$facebook = new Facebook($config);
 		$response = $facebook->api(
-			"/search?q=%23fpt"
+			"/search?q=%23vietnam"
 		);
 	?>
 		<div class="slide">
