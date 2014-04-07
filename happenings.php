@@ -1,9 +1,4 @@
-<style type="text/css">
-	#happenMenu{
-		text-decoration: none;
-		background-color: #eeeeee;
-	}
-</style>
+
 
 	<div class="content">
 		<div class="row" align="center">
@@ -14,15 +9,15 @@
 		</div>
 		<?php
 		//get hashtag
-		require_once ('libs/fb-php-sdk/facebook.php');
+			require_once ('libs/fb-php-sdk/facebook.php');
    
-	    $app_id = 269918776508696;
-	    $app_secret = '99a9bc8d2d42d04cb4d578665430f0c4';
-	    $config = array('appId' => $app_id, 'secret' => $app_secret);
-	    $facebook = new Facebook($config);
-		$response = $facebook->api(
-    		"/search?q=%23fpt"
-		);
+		    $app_id = 269918776508696;
+		    $app_secret = '99a9bc8d2d42d04cb4d578665430f0c4';
+		    $config = array('appId' => $app_id, 'secret' => $app_secret);
+		    $facebook = new Facebook($config);
+			$response = $facebook->api(
+	    		"/search?q=%23fpt"
+			);
 		?>
 		<div class="slide">
 			<div id="click" class="row hashtag">
