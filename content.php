@@ -20,27 +20,31 @@
 			}
 			$("#section-content").load("happenings.php");
 		});
-		// $("#whatMenu").on('click', function(){
-		// 	if($(this).hasClass("selected")){
-		// 		return;
-		// 	}
-		// 	$("#section-content").load("whatIsGroove.php");
-		// });
-		// $("#galleryMenu").on('click', function(){
-		// 	if($(this).hasClass("selected")){
-		// 		return;
-		// 	}
-		// 	$("#section-content").load("gallery.php");
-		// });
-		// $("#singaporeMenu").on('click', function(){
-		// 	if($(this).hasClass("selected")){
-		// 		return;
-		// 	}
-		// 	$("#section-content").load("singaporeDance.php");
-		// });
-		// $(".menu").on('click', function(){
-		// 	$(".menu").removeClass("selected");
-  //           $(this).addClass("selected");
-		// });
+		$("#whatMenu").on('click', function(){
+			evt.preventDefault();
+			if($(this).hasClass("selected")){
+				return;
+			}
+			$("#section-content").load("whatIsGroove.php");
+		});
+		$("#galleryMenu").on('click', function(){
+			evt.preventDefault();
+			if($(this).hasClass("selected")){
+				return;
+			}
+			$("#section-content").load("gallery.php");
+		});
+		$("#singaporeMenu").on('click', function(){
+			evt.preventDefault();
+			if($(this).hasClass("selected")){
+				return;
+			}
+			$("#section-content").load("singaporeDance.php");
+		});
+		$(".menu").on('click', function(){
+			evt.preventDefault();
+			$(".menu").removeClass("selected");
+            $(this).addClass("selected");
+		});
 	});
 </script>
