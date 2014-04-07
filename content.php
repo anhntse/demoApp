@@ -1,10 +1,9 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="libs/css/bootstrap.css">
 </head>
-<body>
+<body> -->
 <!-- Header -->
 <div style="position: relative">
 	<div>
@@ -59,5 +58,5 @@
 		});
 	});
 </script>
-</body>
-</html>
+<!-- </body>
+</html> -->
