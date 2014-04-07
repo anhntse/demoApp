@@ -5,24 +5,24 @@
 	}
 </style>
 
-	<div class="content">
-		<div class="row" align="center">
-			<div id="ytplayer" class="col-md-12"></div>
-		</div>
-		<div class="row" align="center">
-			<a class="col-sm-12" href="whatIsGroove.php" align="center">Create your Episode</a>
-		</div>
-		<?php
-		//get hashtag
-			require_once ('libs/fb-php-sdk/facebook.php');
-   
-		    $app_id = 269918776508696;
-		    $app_secret = '99a9bc8d2d42d04cb4d578665430f0c4';
-		    $config = array('appId' => $app_id, 'secret' => $app_secret);
-		    $facebook = new Facebook($config);
-			$response = $facebook->api(
-	    		"/search?q=%23fpt"
-			);
+<div class="content">
+	<div class="row" align="center">
+		<div id="ytplayer" class="col-md-12"></div>
+	</div>
+	<div class="row" align="center">
+		<a class="col-sm-12" href="whatIsGroove.php" align="center">Create your Episode</a>
+	</div>
+	<?php
+	//get hashtag
+	require_once ('libs/fb-php-sdk/facebook.php');
+
+	$app_id = 269918776508696;
+	$app_secret = '99a9bc8d2d42d04cb4d578665430f0c4';
+	$config = array('appId' => $app_id, 'secret' => $app_secret);
+	$facebook = new Facebook($config);
+	$response = $facebook->api(
+		"/search?q=%23fpt"
+		);
 		?>
 		<div class="slide">
 			<div id="click" class="row hashtag">
@@ -40,17 +40,17 @@
 			</div>
 		</div>
 		<script>
-		var pos = 0;
-		$(document).ready(function(){
-			$(".backButton").click(function(){
- 			 	$(".hashtag").animate({left:pos + 50});
- 			 	pos = pos + 50;
+			var pos = 0;
+			$(document).ready(function(){
+				$(".backButton").click(function(){
+					$(".hashtag").animate({left:pos + 50});
+					pos = pos + 50;
+				});
+				$(".nextButton").click(function(){
+					$(".hashtag").animate({left:pos - 50});
+					pos = pos - 50;
+				});  
 			});
-			$(".nextButton").click(function(){
- 			 	$(".hashtag").animate({left:pos - 50});
- 			 	pos = pos - 50;
-			});  
-		});
 		</script>
 		<script>
 			var tag = document.createElement('script');
