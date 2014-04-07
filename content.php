@@ -1,10 +1,3 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body> -->
-<!-- Header -->
 <div style="position: relative">
 	<div>
 		<ul class="nav nav-pills" align="center">
@@ -24,33 +17,25 @@
 			if($(this).hasClass("selected")){
 				return;
 			}
-			else{
-				$("#section-content").load("happenings.php");
-			}
+			$("#section-content").load("happenings.php");
 		});
 		$("#whatMenu").on('click', function(){
 			if($(this).hasClass("selected")){
 				return;
 			}
-			else{
-				$("#section-content").load("whatIsGroove.php");
-			}
+			$("#section-content").load("whatIsGroove.php");
 		});
 		$("#galleryMenu").on('click', function(){
 			if($(this).hasClass("selected")){
 				return;
 			}
-			else{
-				$("#section-content").load("gallery.php");
-			}
+			$("#section-content").load("gallery.php");
 		});
 		$("#singaporeMenu").on('click', function(){
 			if($(this).hasClass("selected")){
 				return;
 			}
-			else{
-				$("#section-content").load("singaporeDance.php");
-			}
+			$("#section-content").load("singaporeDance.php");
 		});
 		$(".menu").on('click', function(){
 			$(".menu").removeClass("selected");
@@ -58,5 +43,3 @@
 		});
 	});
 </script>
-<!-- </body>
-</html> -->
