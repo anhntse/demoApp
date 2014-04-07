@@ -14,7 +14,7 @@
 <script>
 	$(function(){
 		$("#happenMenu").on('click', function(evt){
-			evt.preventDefaulṭ̣̣̣̣̣();̣̣̣
+			evt.preventDefault();̣̣̣
 			if($(this).hasClass("selected")){
 				return;
 			}
