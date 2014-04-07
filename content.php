@@ -10,7 +10,7 @@
 <?php include 'header.php';?>
 <div id="section-content"></div>
 <script>
-	$function(){
+	$(function(){
 		$("#happenMenu").on('click', function(){
 			if($(this).hasClass("selected")){
 				return;
@@ -47,7 +47,7 @@
 			$(".menu").removeClass("selected");
             $(this).addClass("selected");
 		});
-	}
+	});
 </script>
 </body>
 </html>
