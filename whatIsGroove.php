@@ -1,5 +1,5 @@
 <script>
-	$("happeningMenu").attr("src","img/menu/menu2_active.png");
+	$("#whatMenu").attr("src","img/menu/menu2_active.png");
 </script>
 <div class="content">
 	<div class="row" align="center">
