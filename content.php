@@ -47,8 +47,3 @@
 			});
 		});
 	</script>
-	<!-- Footer -->
-	<div class="footer">
-		<img src="img/sponsors.png">
-	</div>
-	<!-- End Footer -->
