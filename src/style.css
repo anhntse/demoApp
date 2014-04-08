@@ -6,11 +6,11 @@
 .header{
 	left: 0;
 	right: 0;
+	padding-left: 55px;
+	padding-right: 55px;
 }
 .menu{
 	width: 19.8%;
-	padding-left: 55px;
-	padding-right: 55px;
 }
 .slide{
 	width: 810px;
