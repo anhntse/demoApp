@@ -1,10 +1,6 @@
-<style type="text/css">
-	#galleryMenu{
-		text-decoration: none;
-		background-color: #eeeeee;
-	}
-</style>
-
+<script>
+	$("happeningMenu").attr("src","img/menu/menu3_active.png");
+</script>
 <div class="content">
 	<?php
 	require_once ('libs/fb-php-sdk/facebook.php');

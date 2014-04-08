@@ -10,6 +10,7 @@
 	padding-right: 40px;
 }
 .menu{
+	float: left;
 	text-align: center;
 	width: 20%;
 }
