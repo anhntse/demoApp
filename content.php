@@ -1,7 +1,7 @@
 <div class="main">
 	<div style="position: relative">
 		<div class="header">
-			<ul class="nav nav-pills" align="center">
+			<ul align="center">
 				<li class="menu menuClick" id="happenMenu"><a href="happenings.php"><img src="img/menu/menu1.png"></a></li>
 				<li class="menu menuClick" id="whatMenu"><a href="whatIsGroove.php"><img src="img/menu/menu2.png"></a></li>
 				<li class="menu"><img src="img/Logo.png"></li>
