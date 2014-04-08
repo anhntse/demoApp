@@ -1,5 +1,9 @@
 <script>
-	$("#happeningMenu").attr("src","img/menu/menu1_active.png");
+	$("#whatMenu").attr("src","img/menu/menu2.png");
+	$("#galleryMenu").attr("src","img/menu/menu3.png");
+	$("#singaporeMenu").attr("src","img/menu/menu4.png");
+
+	$("#happenMenu").attr("src","img/menu/menu1_active.png");
 </script>
 <div class="content">
 	<div class="row" align="center">
