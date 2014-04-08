@@ -1,4 +1,4 @@
-<div class="main">
+
 	<div>
 		<div class="header">
 				<div class="menu menuClick"><a href="happenings.php"><img id="happenMenu" src="img/menu/menu1.png"></a></div>
@@ -52,4 +52,3 @@
 		<img src="img/sponsors.png">
 	</div>
 	<!-- End Footer -->
-</div>
