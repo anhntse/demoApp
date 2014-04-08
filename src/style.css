@@ -12,6 +12,9 @@
 .menu{
 	width: 19.8%;
 }
+.menuClick{
+	padding-bottom: 25px;
+}
 .slide{
 	width: 810px;
 	height: 100px;
