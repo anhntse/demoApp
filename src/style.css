@@ -6,14 +6,15 @@
 .header{
 	left: 0;
 	right: 0;
-	padding-left: 55px;
-	padding-right: 55px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 .menu{
-	width: 19.8%;
+	text-align: center;
+	width: 20%;
 }
 .menuClick{
-	padding-bottom: 25px;
+	padding-top: 90px;
 }
 .slide{
 	width: 810px;
