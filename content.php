@@ -1,5 +1,5 @@
 <div class="main">
-	<div style="position: relative">
+	<div>
 		<div class="header">
 				<div class="menu menuClick"><a href="happenings.php"><img id="happenMenu" src="img/menu/menu1.png"></a></div>
 				<div class="menu menuClick"><a href="whatIsGroove.php"><img id="whatMenu" src="img/menu/menu2.png"></a></div>
