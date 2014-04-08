@@ -1,7 +1,7 @@
 .main{
 	width:810px;
 	height: 1000px;
-	background-color: green;
+	background-image:url("../img/background.jpg");
 }
 .slide{
 	width: 810px;
