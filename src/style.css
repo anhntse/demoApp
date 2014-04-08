@@ -1,5 +1,5 @@
-body{
-	background-image: "img/background.jpg";
+.main{
+	background-image: url("img/background.jpg");
 }
 .content{
 	width:810px;
