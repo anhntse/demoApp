@@ -3,6 +3,10 @@
 	height: 950px;
 	background-image:url("../img/background.jpg");
 }
+.header{
+	left: 0;
+	right: 0;
+}
 .slide{
 	width: 810px;
 	height: 100px;

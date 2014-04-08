@@ -1,6 +1,6 @@
 <div class="main">
 	<div style="position: relative">
-		<div>
+		<div class="header">
 			<ul class="nav nav-pills" align="center">
 				<li class="menu" id="happenMenu"><a href="happenings.php">Happenings</a></li>
 				<li class="menu" id="whatMenu"><a href="whatIsGroove.php">What is Groove Nation?</a></li>
