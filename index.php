@@ -161,7 +161,11 @@
             <img src="images/footer.png">
         </div> -->
     </div>
-
+    <!-- Footer -->
+    <div class="footer">
+        <img src="img/sponsors.png">
+    </div>
+    <!-- End Footer -->
 </div>
 </body>
 </html>
