@@ -117,7 +117,7 @@
         d.getElementsByTagName('head')[0].appendChild(js);
     }(document));
 </script>
-<div id='main'  style="width: 810px;">
+<div id='main'>
     <div style="position: relative;">
     <?php
     require_once ('libs/fb-php-sdk/facebook.php');
