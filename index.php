@@ -149,7 +149,7 @@
         echo "<script type='text/javascript'>window.top.location.href = '$login_url';</script>";
     }else{
         if (!$signed_request["page"]["liked"]) {
-            echo '<img src="img/likeus.jpg">';
+            echo '<img src="img/likeUs.jpg">';
         }else {
             // $handle -> userEnter($user_id);
             include 'content.php';
