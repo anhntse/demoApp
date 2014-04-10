@@ -87,11 +87,16 @@
 	border-top-color: #c3c2c0;
 	border-top-width: 2px;
 }
+.photo_ssd{
+	padding-top: 30px;
+}
 .title_ssd{
+	padding-top: 30px;
 	font-family: Blanch !important;
 	font-size: 50px;
 }
 .text_ssd{
+	padding-left: 30px;
 	font-family: Gotham Book !important;
 	font-size: 12px;
 }

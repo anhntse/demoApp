@@ -12,11 +12,11 @@
 
 	<div class="ssd">
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-sm-6 photo_ssd" align="right">
 				<img src="img/ssd/photo.jpg">
 			</div>
 			<div class="col-sm-6">
-				<div class="title_ssd">WHAT IS SiNGAPORE<br>DANCE DELIGHT?</div>
+				<div class="title_ssd">WHAT IS SiNGAPORE DANCE DELIGHT?</div>
 				<div class="text_ssd">
 					<p>There are numerous dance competitions<br>
 					in Singapore however SDD is a dance event<br>
