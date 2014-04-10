@@ -9,11 +9,13 @@
 	<div class="row ytplayer" align="center">
 		<iframe width="610" height="360" src="//www.youtube.com/embed/MVt32qoyhi0" frameborder="0" allowfullscreen></iframe>
 	</div>
+	<!-- Upload -->
 	<div class="row" align="center">
-		<form action="whatIsGroove.php" method="post" enctype="multipart/form-data">
+		<img id="upload" src="img/upload/upload.png">
+		<!-- <form action="whatIsGroove.php" method="post" enctype="multipart/form-data">
 			<input type="file" name="file" id="file" size="20"><br>
 			<input type="submit" name="submit" value="Submit">
-		</form>
+		</form> -->
 	</div>
 	<?php
 	if(isset($_POST['submit'])){
@@ -55,6 +57,11 @@
 	</div>
 	<script>
 	$(document).ready(function(){
+		$("#upload").hover(function(){
+			$("#upload").attr("src", "img/upload/uploadHover.png");
+		},function(){
+			$("#upload").attr("src", "img/upload/upload.png");
+		});
 		$(".downloadBtn").hover(function(){
 			$("#downloadImg").attr("src", "img/upload/downloadHover.png");
 		},function(){
