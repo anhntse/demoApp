@@ -21,6 +21,8 @@
 .menuClick{
 	padding-top: 90px;
 }
+
+/*happenings*/
 .slide{
 	width: 810px;
 	height: 100px;
@@ -44,6 +46,13 @@
 	/*position: absolute;*/
 	/*z-index: 2;*/
 }
+.backButton{
+	margin-left: -15px;
+}
+.nextButton{
+	margin-right: -15px;
+}
+
 .gallery{
 	margin-left: 30px;
 	margin-right: 30px;
