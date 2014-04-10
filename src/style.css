@@ -11,6 +11,9 @@
 	padding-left: 40px;
 	padding-right: 40px;
 }
+.logo{
+
+}
 .menu{
 	float: left;
 	text-align: center;
@@ -51,11 +54,14 @@
 
 /*Upload*/
 .musicPlay{
-	width: 614px;
-	height: 220px;
+	width: 620px;
+	height: 225px;
+	margin-left: 97px;
 	background-image: url("../img/upload/musicBackground.png");
 }
-
+.music{
+	bottom: 10px;
+}
 
 .gallery{
 	margin-left: 30px;
