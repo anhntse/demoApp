@@ -14,7 +14,7 @@
 	</div>
 
 	<!-- National New -->
-	<div class="row" class="nationalNew">
+	<div class="row nationalNew">
 		<h3>NATIONAL NEW</h3>
 	</div>
 
