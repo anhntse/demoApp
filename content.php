@@ -2,11 +2,11 @@
 	<div>
 		<div class="header">
 				<div class="logo"><img src="img/Logo.png"></div>
-				<div class="menu menuClick"><a href="happenings.php"><img id="happenMenu" src="img/menu/menu1.png"></a></div>
-				<div class="menu menuClick"><a href="whatIsGroove.php"><img id="whatMenu" src="img/menu/menu2.png"></a></div>
+				<div class="menu menuClick"><img id="happenMenu" src="img/menu/menu1.png"></div>
+				<div class="menu menuClick"><img id="whatMenu" src="img/menu/menu2.png"></div>
 				<div class="menu"><img src="img/Logo_temp.png"></div>
-				<div class="menu menuClick"><a href="gallery.php"><img id="galleryMenu" src="img/menu/menu3.png"></a></div>
-				<div class="menu menuClick"><a href="singaporeDance.php"><img id="singaporeMenu" src="img/menu/menu4.png"></a></div>
+				<div class="menu menuClick"><img id="galleryMenu" src="img/menu/menu3.png"></div>
+				<div class="menu menuClick"><img id="singaporeMenu" src="img/menu/menu4.png"></div>
 		</div>
 		<!-- End Header -->
 		<div id="section-content"></div>
