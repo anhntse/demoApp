@@ -31,18 +31,15 @@
 	width: 10000px;
 	height: 100px;
 	position: absolute;
-	/*z-index: 1;*/
 }
 .tagList{
 	background-color: #E1E1E1;
 	width: 200px;
 	height: 100px;
 	margin: 25px;
+	padding: 10px;
 	float: left;
-}
-.button{
-	/*position: absolute;*/
-	/*z-index: 2;*/
+	background-image: url(".../img/happenings/tag.png");
 }
 .backButton{
 	margin-left: -15px;
@@ -50,6 +47,8 @@
 .nextButton{
 	margin-right: -15px;
 }
+
+
 
 .gallery{
 	margin-left: 30px;
