@@ -91,11 +91,15 @@
 	padding-top: 30px;
 }
 .title_ssd{
-	padding-top: 30px;
+	color: white;
+	padding-top: 60px;
 	font-family: Blanch !important;
 	font-size: 50px;
+	line-height: 30px;
 }
 .text_ssd{
+	color: white;
+	padding-top: 15px;
 	padding-left: 30px;
 	font-family: Gotham Book !important;
 	font-size: 12px;
