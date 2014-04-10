@@ -12,6 +12,13 @@
 	<div class="row" align="center">
 		<a class="col-sm-12" href="whatIsGroove.php" align="center"><img src="img/happenings.Create.png"></a>
 	</div>
+
+	<!-- National New -->
+	<div class="row" class="nationalNew">
+		<h3>NATIONAL NEW</h3>
+	</div>
+
+	<!-- Hashtag -->
 	<?php
 	//get hashtag
 	require_once ('libs/fb-php-sdk/facebook.php');
@@ -35,16 +42,22 @@
 				<div class="tagList"><?php echo $response['data'][6]['message'];?></div> 
 			</div>
 			<div class="button">
-				<div class="col-sm-6" align="left"><img class="backButton" src="img/back.png"></div>
-				<div class="col-sm-6" align="right"><img class="nextButton" src="img/next.png"></div>
+				<div class="col-sm-6" align="left"><img class="backButton" src="img/happenings/LeftBtn.png"></div>
+				<div class="col-sm-6" align="right"><img class="nextButton" src="img/happenings/RightBtn.png"></div>
 			</div>
 		</div>
 		<script>
 			var pos = 0;
 			$(document).ready(function(){
+				$(".backButton").mousedown(function(){
+					$(".backButton").attr("src", "img/happenings/LeftBtnD.png");
+				});
 				$(".backButton").click(function(){
 					$(".hashtag").animate({left:pos + 50});
 					pos = pos + 50;
+				});
+				$(".nextButton").mousedown(function(){
+					$(".nextButton").attr("src", "img/happenings/RightBtnD.png");
 				});
 				$(".nextButton").click(function(){
 					$(".hashtag").animate({left:pos - 50});
