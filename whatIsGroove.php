@@ -11,7 +11,7 @@
 	</div>
 	<!-- Upload -->
 	<div class="row" align="center">
-		<img id="upload" src="img/upload/upload.png" style="cursor:pointer">
+		<img id="upload" src="img/upload/uploadBtn.png" style="cursor:pointer">
 		<!-- <form action="whatIsGroove.php" method="post" enctype="multipart/form-data">
 			<input type="file" name="file" id="file" size="20"><br>
 			<input type="submit" name="submit" value="Submit">
@@ -60,7 +60,7 @@
 		$("#upload").hover(function(){
 			$("#upload").attr("src", "img/upload/uploadHover.png");
 		},function(){
-			$("#upload").attr("src", "img/upload/upload.png");
+			$("#upload").attr("src", "img/upload/uploadBtn.png");
 		});
 		$(".downloadBtn").hover(function(){
 			$("#downloadImg").attr("src", "img/upload/downloadHover.png");
