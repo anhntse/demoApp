@@ -82,6 +82,18 @@
 	background-color: #120600; 
 	width: 100%;
 	height: 400px;
+	margin-top: -5px;
+	border-top-style: solid;
+	border-top-color: #c3c2c0;
+	border-top-width: 2px;
+}
+.title_ssd{
+	font-family: Blanch !important;
+	font-size: 50px;
+}
+.text_ssd{
+	font-family: Gotham Book !important;
+	font-size: 12px;
 }
 
 .footer{
