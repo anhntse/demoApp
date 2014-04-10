@@ -34,12 +34,12 @@
 }
 .tagList{
 	background-color: #E1E1E1;
-	width: 200px;
-	height: 100px;
+	width: 266px;
+	height: 126px;
 	margin: 25px;
 	padding: 10px;
 	float: left;
-	background-image: url(".../img/happenings/tag.png");
+	background-image: url("../img/happenings/tag.png");
 }
 .backButton{
 	margin-left: -15px;

@@ -7,14 +7,10 @@
 </script>
 <div class="content">
 	<div class="row" align="center">
-		<iframe width="560" height="315" src="//www.youtube.com/embed/MVt32qoyhi0" frameborder="0" allowfullscreen></iframe>
+		<iframe width="610" height="360" src="//www.youtube.com/embed/MVt32qoyhi0" frameborder="0" allowfullscreen></iframe>
 	</div>
 	<div class="row" align="center">
-	<a class="col-sm-12"align="center">Upload your episode</a>
-	</div>
-	<div>
 		<form action="whatIsGroove.php" method="post" enctype="multipart/form-data">
-			<label for="file">Filename:</label>
 			<input type="file" name="file" id="file" size="20"><br>
 			<input type="submit" name="submit" value="Submit">
 		</form>
