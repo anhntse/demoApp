@@ -10,6 +10,7 @@
 	right: 0;
 	padding-left: 40px;
 	padding-right: 40px;
+	margin-bottom: 119px;
 }
 .logo{
 	position: absolute;
@@ -99,7 +100,6 @@
 .gallery{
 	margin-left: 0px;
 	margin-right: 0px;
-	padding-top: 119px;
 	padding-left: 100px;
 	padding-right: 100px;
 	background-color: white;
@@ -116,7 +116,6 @@
 .ytplayer{
 	margin-left: 0px;
 	margin-right: 0px;
-	padding-top: 119px;
 }
 .ssd{
 	background-color: #120600; 
