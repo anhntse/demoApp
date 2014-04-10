@@ -24,13 +24,18 @@
 .menuClick{
 	padding-top: 70px;
 }
-.ytplayer{
-	padding-top: 20px;
-}
 
 /*happenings*/
 #createYourEpisode{
 	margin-top: 10px;
+}
+.nationalNew{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.nationalNew h3{
+	font-size: 16px;
+	font-family: Gotham Bold !important;
 }
 .slide{
 	width: 810px;
@@ -84,6 +89,7 @@
 .ytplayer{
 	margin-left: 0px;
 	margin-right: 0px;
+	padding-top: 119px;
 }
 .ssd{
 	background-color: #120600; 
