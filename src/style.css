@@ -68,11 +68,14 @@
 
 
 /*Upload*/
+.upload{
+	margin-top: 10px;
+}
 .music{
 	width: 620px;
 	height: 225px;
 	margin-left: 97px;
-	margin-top: 60px;
+	margin-top: 15px;
 	padding-top: 1px;
 	background-image: url("../img/upload/musicBackground.png");
 }

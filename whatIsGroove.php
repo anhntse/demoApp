@@ -10,8 +10,8 @@
 		<iframe width="610" height="360" src="//www.youtube.com/embed/MVt32qoyhi0" frameborder="0" allowfullscreen></iframe>
 	</div>
 	<!-- Upload -->
-	<div class="row" align="center">
-		<img id="upload" src="img/upload/uploadBtn.png" style="cursor:pointer">
+	<div class="row upload" align="center">
+		<img id="uploadBtn" src="img/upload/uploadBtn.png" style="cursor:pointer">
 		<!-- <form action="whatIsGroove.php" method="post" enctype="multipart/form-data">
 			<input type="file" name="file" id="file" size="20"><br>
 			<input type="submit" name="submit" value="Submit">
@@ -57,10 +57,10 @@
 	</div>
 	<script>
 	$(document).ready(function(){
-		$("#upload").hover(function(){
-			$("#upload").attr("src", "img/upload/uploadHover.png");
+		$("#uploadBtn").hover(function(){
+			$("#uploadBtn").attr("src", "img/upload/uploadHover.png");
 		},function(){
-			$("#upload").attr("src", "img/upload/uploadBtn.png");
+			$("#uploadBtn").attr("src", "img/upload/uploadBtn.png");
 		});
 		$(".downloadBtn").hover(function(){
 			$("#downloadImg").attr("src", "img/upload/downloadHover.png");
