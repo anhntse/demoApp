@@ -97,8 +97,11 @@
 
 /*Gallery*/
 .gallery{
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 119px;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 .photo{
 	padding: 0px;

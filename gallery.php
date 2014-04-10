@@ -18,7 +18,7 @@
 	);
 	?>
 		<div class="gallery">
-			<h2>Gallery</h2>
+			<h3>Gallery</h3>
 			<div class="row">
 				<div class="col-sm-4">
 					<div class="thumbnail photo">
