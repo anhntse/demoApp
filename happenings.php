@@ -10,7 +10,7 @@
 		<iframe width="610" height="360" src="//www.youtube.com/embed/MVt32qoyhi0" frameborder="0" allowfullscreen></iframe>
 	</div>
 	<div class="row" align="center" id="createYourEpisode">
-		<img src="img/happenings/Create.png">
+		<img style="cursor:pointer" src="img/happenings/Create.png">
 	</div>
 
 	<!-- National New -->

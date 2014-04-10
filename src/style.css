@@ -27,7 +27,6 @@
 
 /*happenings*/
 #createYourEpisode{
-	cursor: pointer;
 	margin-top: 10px;
 }
 .slide{
@@ -42,7 +41,6 @@
 	position: absolute;
 }
 .tagList{
-	background-color: #E1E1E1;
 	width: 266px;
 	height: 126px;
 	margin: 25px;
