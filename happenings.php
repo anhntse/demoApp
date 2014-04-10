@@ -10,7 +10,7 @@
 		<iframe width="610" height="360" src="//www.youtube.com/embed/MVt32qoyhi0" frameborder="0" allowfullscreen></iframe>
 	</div>
 	<div class="row" align="center">
-		<a class="col-sm-12" href="whatIsGroove.php" align="center">Create your Episode</a>
+		<a class="col-sm-12" href="whatIsGroove.php" align="center"><img src="img/happenings.Create.png"></a>
 	</div>
 	<?php
 	//get hashtag
