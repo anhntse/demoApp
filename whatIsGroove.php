@@ -48,6 +48,9 @@
 			<div class="downloadMusic">
 				<img src="img/upload/clickDownload.png">
 			</div>
+			<div class="downloadBtn">
+				<img src="img/upload/download.png">
+			</div>
 		</div>
 	</div>
 

@@ -88,7 +88,11 @@
 .downloadMusic{
 	padding-left: 10px;
 }
+.downloadBtn{
+	position: absolute;
+}
 
+/*Gallery*/
 .gallery{
 	margin-left: 30px;
 	margin-right: 30px;
