@@ -12,6 +12,7 @@
 	</div>
 	<script>
 		$(function(){
+			$("#section-content").load("happenings.php");
 			$("#happenMenu").on('click', function(evt){
 				evt.preventDefault();
 				if($(this).hasClass("selected")){
