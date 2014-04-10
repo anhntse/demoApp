@@ -72,6 +72,13 @@
 	border: 0px;
 	border-radius: 0px;
 }
+
+/*SSD*/
+.ytplayer{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 .footer{
 	position: absolute;
 	bottom: 10px;

@@ -6,7 +6,7 @@
 	$("#singaporeMenu").attr("src","img/menu/menu4_active.png");
 </script>
 <div class="content">
-	<div class="row" align="center">
+	<div class="row ytplayer" align="center">
 		<iframe width="100%" height="445" src="//www.youtube.com/embed/MVt32qoyhi0" frameborder="0" allowfullscreen></iframe>
 	</div>
 </div>
