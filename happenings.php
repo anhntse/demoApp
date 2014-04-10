@@ -52,12 +52,18 @@
 				$(".backButton").mousedown(function(){
 					$(".backButton").attr("src", "img/happenings/LeftBtnD.png");
 				});
+				$(".backButton").mouseup(function(){
+					$(".backButton").attr("src", "img/happenings/LeftBtn.png");
+				});
 				$(".backButton").click(function(){
 					$(".hashtag").animate({left:pos + 50});
 					pos = pos + 50;
 				});
 				$(".nextButton").mousedown(function(){
 					$(".nextButton").attr("src", "img/happenings/RightBtnD.png");
+				});
+				$(".nextButton").mouseup(function(){
+					$(".nextButton").attr("src", "img/happenings/RightBtn.png");
 				});
 				$(".nextButton").click(function(){
 					$(".hashtag").animate({left:pos - 50});
