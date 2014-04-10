@@ -49,7 +49,7 @@
 				<img src="img/upload/clickDownload.png">
 			</div>
 			<div class="downloadBtn">
-				<img id="downloadImg" src="img/upload/download.png">
+				<a href="https://api.soundcloud.com/tracks/140181705/download?client_id=0f8fdbbaa21a9bd18210986a7dc2d72c"><img id="downloadImg" src="img/upload/download.png"></a>
 			</div>
 		</div>
 	</div>
