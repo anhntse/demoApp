@@ -9,8 +9,8 @@
 	<div class="row" align="center">
 		<iframe width="610" height="360" src="//www.youtube.com/embed/MVt32qoyhi0" frameborder="0" allowfullscreen></iframe>
 	</div>
-	<div class="row" align="center">
-		<a class="col-sm-12" href="whatIsGroove.php" align="center"><img src="img/happenings/Create.png"></a>
+	<div class="row" align="center" id="createYourEpisode">
+		<a class="col-sm-12" align="center"><img src="img/happenings/Create.png"></a>
 	</div>
 
 	<!-- National New -->
@@ -49,6 +49,10 @@
 		<script>
 			var pos = 0;
 			$(document).ready(function(){
+				$("#createYourEpisode").on('click', function(evt){
+					evt.preventDefault();
+					$("#section-content").load("whatIsGroove.php");
+				});
 				$(".backButton").mousedown(function(){
 					$(".backButton").attr("src", "img/happenings/LeftBtnD.png");
 				});
