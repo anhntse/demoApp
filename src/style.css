@@ -12,7 +12,9 @@
 	padding-right: 40px;
 }
 .logo{
-
+	position: absolute;
+	left: 340px;
+	top: -10px;
 }
 .menu{
 	float: left;
