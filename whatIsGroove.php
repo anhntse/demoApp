@@ -49,9 +49,15 @@
 				<img src="img/upload/clickDownload.png">
 			</div>
 			<div class="downloadBtn">
-				<img src="img/upload/download.png">
+				<img id="downloadImg" src="img/upload/download.png">
 			</div>
 		</div>
 	</div>
-
+	<script>
+	$(document).ready(function(){
+		$(".downloadBtn").hover(function(){
+			$("#downloadImg").attr("src", "img/upload/downloadHover.png");
+		});
+	});
+	</script>
 </div>

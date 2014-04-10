@@ -86,10 +86,12 @@
 	float: left;
 }
 .downloadMusic{
-	padding-left: 10px;
+	padding-left: 455px;
 }
 .downloadBtn{
 	position: absolute;
+	left: 600px;
+	top: 733px;
 }
 
 /*Gallery*/
