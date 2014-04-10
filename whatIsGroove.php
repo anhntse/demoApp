@@ -57,6 +57,8 @@
 	$(document).ready(function(){
 		$(".downloadBtn").hover(function(){
 			$("#downloadImg").attr("src", "img/upload/downloadHover.png");
+		},function(){
+			$("#downloadImg").attr("src", "img/upload/download.png");
 		});
 	});
 	</script>
