@@ -11,7 +11,7 @@
 	</div>
 	<!-- Upload -->
 	<div class="row" align="center">
-		<img id="upload" src="img/upload/upload.png">
+		<img id="upload" src="img/upload/upload.png" style="cursor:pointer">
 		<!-- <form action="whatIsGroove.php" method="post" enctype="multipart/form-data">
 			<input type="file" name="file" id="file" size="20"><br>
 			<input type="submit" name="submit" value="Submit">
