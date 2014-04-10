@@ -26,6 +26,10 @@
 }
 
 /*happenings*/
+#createYourEpisode{
+	cursor: pointer;
+	margin-top: 10px;
+}
 .slide{
 	width: 810px;
 	height: 150px;
